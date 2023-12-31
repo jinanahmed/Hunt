@@ -1,0 +1,192 @@
+@media (max-width: 575.98px) { 
+    .togglebar{
+        visibility: visible;
+    }
+    .togglebar i{
+        font-size: 30px;
+        color: #fff;
+        height: 40px;
+        width: 40px;
+        border: 1px solid #fff;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 10px;
+    }
+    .sidebar{
+        visibility: visible;
+        left: 100%;
+        transition: ease-in-out 0.5s;
+    }
+
+
+
+    #banner{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .left-arrow{
+        display: none;
+    }
+    .right-arrow{
+        display: none;
+    }
+    .banner-buttons button{
+        width: 131px;
+        height: 52px;
+        background: #fec600;
+        border-radius: 10px;
+        text-transform: uppercase;
+        border: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 0 10px;
+        color:#000000;
+    }
+    .aboutpoint{
+        display: none;
+    }
+    .dot{
+        visibility: hidden;
+    }
+    .aboutcardleft .abouttext{
+        text-align: center !important;
+    }
+    .aboutcardmiddle{
+        margin: 20px auto;
+    }
+    .aboutcardright .abouttext{
+        text-align: center !important;
+    }
+
+    #portfolio{
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
+    }
+    #portfolio .row {
+        display: flex;
+    }
+    #team{
+        padding-bottom: 50px;
+    }
+    #review{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .teamdiv:hover .teamoverlay{
+        visibility: hidden;
+    }
+    .pricecard{
+        margin: 50px auto;
+        width: 70%;
+    }
+    .pricecard:hover .pricetitle, .pricecard:hover .pricejoin, .pricecard:hover .pricecardprice{
+        background: #444444;
+    }
+    .pricecard:hover .pricecardpricecircle{
+        border: 1px solid #444444; 
+    }
+    .pricecard:hover .pricetitle, .pricecard:hover .pricejoin, .pricecard:hover .pricecardprice h3, .pricecard:hover .pricecardprice p{
+        color: #ffffff;
+    }
+    #counter{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    .counter {
+        transform: skew(0);
+    }
+    .counter h3, .counter p {
+        transform: rotate(0) skew(0);
+    }
+    .counterwrapper{
+        transform: rotate(0);
+    }
+    .teamdiv{
+        height: 405px;
+        margin-bottom: 20px;
+    }
+    .teamtext{
+        padding-bottom: 80px;
+    }
+    .teamicons {
+        bottom: 25px;
+    }
+    #companies {
+        background: #f1f1f1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px 0;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        position: static;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .slick-center .servimage img{
+        transform: scale(1);;
+    }
+    .slick-center .servimage{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        background: #eee;
+        line-height: 70px;
+    }
+    .service-inner:nth-child(even) .servicerow .servicedesc::before{
+        display: none;
+    }
+    .service-inner:nth-child(odd) .servicerow .servicedesc::before{
+        display: none;
+    }
+    .servicedesc{
+        padding: 20px 20px;
+        background: #eeeeee;
+        width: 40%;
+        position: relative;
+    }
+    .servicedesc p{
+        font-size: 8px;
+    }
+    .slick-center .servicedesc{
+        filter: drop-shadow(3px 0px 1px #00000000);
+    }
+    #footer {
+        padding-top: 50px;
+        clip-path: polygon(0 0  , 100% 0, 100% 100%, 0% 100%);
+    }
+    .servshape{
+        display: none;
+    }
+    .servshape img{
+        display: none;
+    }
+    .footertextpart{
+        padding-top: 50px;
+    }
+    .counter {
+        transform: skew(0);
+    }
+    .companylogodiv {
+        transform: skew(0);
+        height: 100px;
+    }
+    .companywrapper{
+        transform: rotate(0);
+    }
+    .companylogodiv img{
+        transform: skew(0) rotate(0);
+    }
+    .footeritems{
+        border-right: none;
+    }
+    #footer::before {
+        transform: rotate(0);
+    }
+    .servicedesc p{
+        font-size: 14px;
+    }
+    .revimg{
+        margin: 30px auto;
+        transform: translateX(-50%);
+    }
+}
